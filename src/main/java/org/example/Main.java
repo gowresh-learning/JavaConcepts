@@ -32,7 +32,6 @@ public class Main {
         System.out.println("Before method call: " +p.name);
         p.modifyObject(p); // Passing the reference of the object
         System.out.println("After method call: " + p.name); // Object's name is modified
-
         /**
          * Singleton Pattern
          **/
