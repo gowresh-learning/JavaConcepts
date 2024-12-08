@@ -33,6 +33,18 @@ public class Main {
         p.modifyObject(p); // Passing the reference of the object
         System.out.println("After method call: " + p.name); // Object's name is modified
         /**
+         * OOPS concepts
+         */
+        //Inheritance
+        //Polymorphism - Compile-time Polymorphism Example: Method Overloading
+        //Method overriding (which is dynamic or runtime polymorphism) refers to a subclass providing a specific implementation of a method that is already defined in its superclass.
+        //Child class object can be referred by parent class reference variable - dynamic polymorphism or run-time polymorphism (Note: here only overriden methods can be called)
+        //Interface
+// Abstract methods: method without a body and must be implemented by any class that implements the interface
+// Supports Multiple Inheritance
+// Supports Default methods and Static methods that are on Java8
+// Constant fields: by default they are public static and final
+        /**
          * Singleton Pattern
          **/
         //SingletonPattern Instantiate the object only once
